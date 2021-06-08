@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Controls = ({ selectedPlayer, sortAsc, sortDesc }) => {
+const Controls = ({ selectedPlayer, sortByOrder, sortingOrder }) => {
   const classes = useStyles();
   const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
   const [loading, setLoading] = useState(false);
@@ -67,7 +67,8 @@ const Controls = ({ selectedPlayer, sortAsc, sortDesc }) => {
             <Button
               variant="outlined"
               color="primary"
-              onClick={() => sortAsc()}
+              onClick={() => sortByOrder('Asc')}
+              disabled={sortingOrder && sortingOrder === 'Asc'}
               fullWidth
             >
               Sort ASC
@@ -77,7 +78,8 @@ const Controls = ({ selectedPlayer, sortAsc, sortDesc }) => {
             <Button
               variant="outlined"
               color="primary"
-              onClick={() => sortDesc()}
+              onClick={() => sortByOrder('Desc')}
+              disabled={sortingOrder && sortingOrder === 'Desc'}
               fullWidth
             >
               Sort DESC
