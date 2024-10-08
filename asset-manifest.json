@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zeshan-786/cards-game/static/css/main.dde3fef8.chunk.css",
+    "main.js": "/zeshan-786/cards-game/static/js/main.c01c1802.chunk.js",
+    "main.js.map": "/zeshan-786/cards-game/static/js/main.c01c1802.chunk.js.map",
+    "runtime-main.js": "/zeshan-786/cards-game/static/js/runtime-main.bc053049.js",
+    "runtime-main.js.map": "/zeshan-786/cards-game/static/js/runtime-main.bc053049.js.map",
+    "static/js/2.42b77ae5.chunk.js": "/zeshan-786/cards-game/static/js/2.42b77ae5.chunk.js",
+    "static/js/2.42b77ae5.chunk.js.map": "/zeshan-786/cards-game/static/js/2.42b77ae5.chunk.js.map",
+    "static/js/3.c31531ad.chunk.js": "/zeshan-786/cards-game/static/js/3.c31531ad.chunk.js",
+    "static/js/3.c31531ad.chunk.js.map": "/zeshan-786/cards-game/static/js/3.c31531ad.chunk.js.map",
+    "index.html": "/zeshan-786/cards-game/index.html",
+    "static/css/main.dde3fef8.chunk.css.map": "/zeshan-786/cards-game/static/css/main.dde3fef8.chunk.css.map",
+    "static/js/2.42b77ae5.chunk.js.LICENSE.txt": "/zeshan-786/cards-game/static/js/2.42b77ae5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc053049.js",
+    "static/js/2.42b77ae5.chunk.js",
+    "static/css/main.dde3fef8.chunk.css",
+    "static/js/main.c01c1802.chunk.js"
+  ]
+}
